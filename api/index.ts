@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import express from 'express';
-import { JSONStorageProvider, SupabaseStorageProvider } from '../server/storage';
+import { JSONStorageProvider, SupabaseStorageProvider } from '../server/storage.ts';
 
 const app = express();
 
