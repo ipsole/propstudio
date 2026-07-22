@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import express from 'express';
-import { JSONStorageProvider, SupabaseStorageProvider } from '../server/storage.ts';
+import { JSONStorageProvider, SupabaseStorageProvider } from './storage.ts';
 
 const app = express();
 
@@ -160,3 +160,10 @@ app.use((err: any, req: express.Request, res: express.Response, next: express.Ne
 });
 
 export default app;
+
+if (process.env.VERCEL !== '1') {
+  const port = process.env.PORT || 3001;
+  app.listen(port, () => {
+    console.log(`[API Server] Running on http://localhost:${port}`);
+  });
+}
