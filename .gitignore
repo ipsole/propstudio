@@ -6,3 +6,4 @@ coverage/
 *.log
 .env*
 !.env.example
+propstudio_deploy_key*
