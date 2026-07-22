@@ -1,0 +1,48 @@
+[
+  {
+    "id": "comp-o0ud7zu8e",
+    "name": "SIGNATURE Component",
+    "type": "signature",
+    "layout": "default",
+    "title": "Signatures and Acceptance",
+    "subtitle": "Sign below to launch visual design phase"
+  },
+  {
+    "id": "comp-agjzvrwca",
+    "name": "video edit pricings sastal cheapest",
+    "type": "pricing",
+    "layout": "default",
+    "title": "Project Pricing Breakdown",
+    "subtitle": "Investment totals",
+    "metadata": {
+      "currency": "₹",
+      "taxRate": 15,
+      "items": [
+        {
+          "id": "f-p1",
+          "name": "Gateway integration",
+          "price": 149,
+          "qty": 3,
+          "optional": false,
+          "included": true
+        },
+        {
+          "id": "f-p2",
+          "name": "PCI-DSS compliance audit",
+          "price": 10000,
+          "qty": 1,
+          "optional": false,
+          "included": true
+        },
+        {
+          "id": "f-p3",
+          "name": "Custom Ledger sync integration",
+          "price": 8000,
+          "qty": 1,
+          "optional": false,
+          "included": true
+        }
+      ]
+    }
+  }
+]

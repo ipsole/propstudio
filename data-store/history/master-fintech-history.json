@@ -1,0 +1,442 @@
+[
+  {
+    "id": "version-rj800pr4s",
+    "name": "check",
+    "timestamp": "Jul 19, 12:27 PM",
+    "pages": [
+      {
+        "id": "page-f1",
+        "title": "Cover Page",
+        "blocks": [
+          {
+            "id": "block-f-cover",
+            "type": "cover",
+            "layout": "split",
+            "title": "Merchant Payment Rails & Compliance Setup",
+            "subtitle": "Fintech integration proposal for {{client_name}}",
+            "content": "Prepared by {{company_name}}",
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "page-f2",
+        "title": "Executive Summary",
+        "blocks": [
+          {
+            "id": "block-f-welcome",
+            "type": "welcome",
+            "layout": "default",
+            "title": "Executive Overview",
+            "content": "Dear {{client_name}} Team,\n\nIn transaction systems, compliance and uptime are critical. This proposal outlines the roadmap to implement secure, PCI-compliant merchant gateway integrations and settlement rails designed for high transaction volumes.",
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            }
+          },
+          {
+            "id": "block-f-services",
+            "type": "services",
+            "layout": "cards",
+            "title": "Merchant Settlement Services",
+            "subtitle": "Scope of Fintech engineering & audits",
+            "metadata": {
+              "services": [
+                {
+                  "id": "s-f1",
+                  "name": "Gateway Integration",
+                  "description": "API linkage for settlement channels.",
+                  "deliverables": "API Endpoints",
+                  "revisions": "2 rounds",
+                  "price": 15000
+                },
+                {
+                  "id": "s-f2",
+                  "name": "PCI-DSS Compliance Audit",
+                  "description": "Security verification and reports.",
+                  "deliverables": "Audit Reports",
+                  "revisions": "1 round",
+                  "price": 10000
+                },
+                {
+                  "id": "s-f3",
+                  "name": "Custom Ledger Sync",
+                  "description": "Double-entry books synchronization.",
+                  "deliverables": "Sync Script",
+                  "revisions": "2 rounds",
+                  "price": 8000
+                }
+              ]
+            },
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "page-f3",
+        "title": "Roadmap & Investment",
+        "blocks": [
+          {
+            "id": "block-f-timeline",
+            "type": "timeline",
+            "layout": "default",
+            "title": "Implementation Roadmap",
+            "subtitle": "Project timeline phases",
+            "metadata": {
+              "steps": [
+                {
+                  "title": "Phase 1: Sandboxed gateway setup",
+                  "duration": "Weeks 1-2",
+                  "details": "Initial API gateway configurations."
+                },
+                {
+                  "title": "Phase 2: Ledger integration",
+                  "duration": "Weeks 3-4",
+                  "details": "Double-entry books sync code."
+                },
+                {
+                  "title": "Phase 3: Production launch",
+                  "duration": "Week 5",
+                  "details": "Gateway validation & live checks."
+                }
+              ]
+            },
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            }
+          },
+          {
+            "id": "block-f-pricing",
+            "type": "pricing",
+            "layout": "default",
+            "title": "Project Pricing Breakdown",
+            "subtitle": "Investment totals",
+            "metadata": {
+              "currency": "$",
+              "taxRate": 15,
+              "items": [
+                {
+                  "id": "f-p1",
+                  "name": "Gateway integration",
+                  "price": 15000,
+                  "qty": 1,
+                  "optional": false,
+                  "included": true
+                },
+                {
+                  "id": "f-p2",
+                  "name": "PCI-DSS compliance audit",
+                  "price": 10000,
+                  "qty": 1,
+                  "optional": false,
+                  "included": true
+                },
+                {
+                  "id": "f-p3",
+                  "name": "Custom Ledger sync integration",
+                  "price": 8000,
+                  "qty": 1,
+                  "optional": false,
+                  "included": true
+                }
+              ]
+            },
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "page-f4",
+        "title": "Signatures",
+        "blocks": [
+          {
+            "id": "block-f-sign",
+            "type": "signature",
+            "layout": "default",
+            "title": "Fintech integration agreement",
+            "subtitle": "Sign below to begin integration",
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            }
+          }
+        ]
+      }
+    ],
+    "brandKit": {
+      "name": "Midnight Royal",
+      "primaryColor": "#1e3a8a",
+      "secondaryColor": "#1d4ed8",
+      "accentColor": "#f59e0b",
+      "textColor": "#0f172a",
+      "backgroundColor": "#ffffff",
+      "fontHeading": "Space Grotesk",
+      "fontBody": "Inter",
+      "spacing": "comfortable",
+      "borderRadius": "medium"
+    },
+    "signatures": {},
+    "variables": [
+      {
+        "key": "client_name",
+        "value": "Client name",
+        "label": "Client Name",
+        "description": "Name of the client organization"
+      },
+      {
+        "key": "company_name",
+        "value": "Docdril Creative Studio",
+        "label": "Company Name",
+        "description": "Name of your creative studio"
+      },
+      {
+        "key": "project_name",
+        "value": "Merchant Payment Rails & Compliance Setup",
+        "label": "Project Name",
+        "description": "The title of this project"
+      },
+      {
+        "key": "date",
+        "value": "July 19, 2026",
+        "label": "Date Issued",
+        "description": "The proposal issuing date"
+      }
+    ]
+  },
+  {
+    "id": "version-o00i45i83",
+    "name": "vdfewf",
+    "timestamp": "Jul 19, 12:26 PM",
+    "pages": [
+      {
+        "id": "page-f1",
+        "title": "Cover Page",
+        "blocks": [
+          {
+            "id": "block-f-cover",
+            "type": "cover",
+            "layout": "split",
+            "title": "Merchant Payment Rai",
+            "subtitle": "Fintech integration proposal for {{client_name}}",
+            "content": "Prepared by {{company_name}}",
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "page-f2",
+        "title": "Executive Summary",
+        "blocks": [
+          {
+            "id": "block-f-welcome",
+            "type": "welcome",
+            "layout": "default",
+            "title": "Executive Overview",
+            "content": "Dear {{client_name}} Team,\n\nIn transaction systems, compliance and uptime are critical. This proposal outlines the roadmap to implement secure, PCI-compliant merchant gateway integrations and settlement rails designed for high transaction volumes.",
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            }
+          },
+          {
+            "id": "block-f-services",
+            "type": "services",
+            "layout": "cards",
+            "title": "Merchant Settlement Services",
+            "subtitle": "Scope of Fintech engineering & audits",
+            "metadata": {
+              "services": [
+                {
+                  "id": "s-f1",
+                  "name": "Gateway Integration",
+                  "description": "API linkage for settlement channels.",
+                  "deliverables": "API Endpoints",
+                  "revisions": "2 rounds",
+                  "price": 15000
+                },
+                {
+                  "id": "s-f2",
+                  "name": "PCI-DSS Compliance Audit",
+                  "description": "Security verification and reports.",
+                  "deliverables": "Audit Reports",
+                  "revisions": "1 round",
+                  "price": 10000
+                },
+                {
+                  "id": "s-f3",
+                  "name": "Custom Ledger Sync",
+                  "description": "Double-entry books synchronization.",
+                  "deliverables": "Sync Script",
+                  "revisions": "2 rounds",
+                  "price": 8000
+                }
+              ]
+            },
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "page-f3",
+        "title": "Roadmap & Investment",
+        "blocks": [
+          {
+            "id": "block-f-timeline",
+            "type": "timeline",
+            "layout": "default",
+            "title": "Implementation Roadmap",
+            "subtitle": "Project timeline phases",
+            "metadata": {
+              "steps": [
+                {
+                  "title": "Phase 1: Sandboxed gateway setup",
+                  "duration": "Weeks 1-2",
+                  "details": "Initial API gateway configurations."
+                },
+                {
+                  "title": "Phase 2: Ledger integration",
+                  "duration": "Weeks 3-4",
+                  "details": "Double-entry books sync code."
+                },
+                {
+                  "title": "Phase 3: Production launch",
+                  "duration": "Week 5",
+                  "details": "Gateway validation & live checks."
+                }
+              ]
+            },
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            }
+          },
+          {
+            "id": "block-f-pricing",
+            "type": "pricing",
+            "layout": "default",
+            "title": "Project Pricing Breakdown",
+            "subtitle": "Investment totals",
+            "metadata": {
+              "currency": "$",
+              "taxRate": 15,
+              "items": [
+                {
+                  "id": "f-p1",
+                  "name": "Gateway integration",
+                  "price": 15000,
+                  "qty": 1,
+                  "optional": false,
+                  "included": true
+                },
+                {
+                  "id": "f-p2",
+                  "name": "PCI-DSS compliance audit",
+                  "price": 10000,
+                  "qty": 1,
+                  "optional": false,
+                  "included": true
+                },
+                {
+                  "id": "f-p3",
+                  "name": "Custom Ledger sync integration",
+                  "price": 8000,
+                  "qty": 1,
+                  "optional": false,
+                  "included": true
+                }
+              ]
+            },
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "page-f4",
+        "title": "Signatures",
+        "blocks": [
+          {
+            "id": "block-f-sign",
+            "type": "signature",
+            "layout": "default",
+            "title": "Fintech integration agreement",
+            "subtitle": "Sign below to begin integration",
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            }
+          }
+        ]
+      }
+    ],
+    "brandKit": {
+      "name": "Midnight Royal",
+      "primaryColor": "#1e3a8a",
+      "secondaryColor": "#1d4ed8",
+      "accentColor": "#f59e0b",
+      "textColor": "#0f172a",
+      "backgroundColor": "#ffffff",
+      "fontHeading": "Space Grotesk",
+      "fontBody": "Inter",
+      "spacing": "comfortable",
+      "borderRadius": "medium"
+    },
+    "signatures": {},
+    "variables": [
+      {
+        "key": "client_name",
+        "value": "Client name",
+        "label": "Client Name",
+        "description": "Name of the client organization"
+      },
+      {
+        "key": "company_name",
+        "value": "Docdril Creative Studio",
+        "label": "Company Name",
+        "description": "Name of your creative studio"
+      },
+      {
+        "key": "project_name",
+        "value": "Merchant Payment Rails & Compliance Setup",
+        "label": "Project Name",
+        "description": "The title of this project"
+      },
+      {
+        "key": "date",
+        "value": "July 19, 2026",
+        "label": "Date Issued",
+        "description": "The proposal issuing date"
+      }
+    ]
+  }
+]

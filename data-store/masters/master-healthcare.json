@@ -1,0 +1,161 @@
+{
+  "id": "master-healthcare",
+  "projectName": "HIPAA-Compliant EHR & Clinic System Integration",
+  "clientName": "{{client_name}}",
+  "companyName": "{{company_name}}",
+  "date": "{{date}}",
+  "logoUrl": null,
+  "status": "draft",
+  "brandKit": {
+    "name": "Serene Bamboo",
+    "primaryColor": "#0d9488",
+    "secondaryColor": "#4b5563",
+    "accentColor": "#14b8a6",
+    "textColor": "#111827",
+    "backgroundColor": "#ffffff",
+    "fontHeading": "Lora",
+    "fontBody": "system-ui",
+    "spacing": "comfortable",
+    "borderRadius": "subtle"
+  },
+  "pages": [
+    {
+      "id": "page-h1",
+      "title": "Cover Page",
+      "blocks": [
+        {
+          "id": "block-h-cover",
+          "type": "cover",
+          "layout": "split",
+          "title": "HIPAA-Compliant EHR Integration",
+          "subtitle": "HL7 messaging and data integration for {{client_name}}",
+          "content": "Prepared by {{company_name}}",
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-h2",
+      "title": "Compliance & Integration Scope",
+      "blocks": [
+        {
+          "id": "block-h-welcome",
+          "type": "welcome",
+          "layout": "default",
+          "title": "Healthcare Integration Overview",
+          "content": "Dear {{client_name}} Team,\n\nEHR syncing, HL7 messaging feeds, and medical record databases require absolute security, high uptime, and strict HIPAA compliance. This proposal details our secure data sync framework and integration engineering milestones.",
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        },
+        {
+          "id": "block-h-services",
+          "type": "services",
+          "layout": "cards",
+          "title": "Core Medical Integrations",
+          "subtitle": "Healthcare development deliverables",
+          "metadata": {
+            "services": [
+              {
+                "id": "s-h1",
+                "name": "HL7 Messaging Engine",
+                "description": "Custom pipelines to parse HL7 patient feeds.",
+                "deliverables": "HL7 Sync Service",
+                "revisions": "2 rounds",
+                "price": 18000
+              },
+              {
+                "id": "s-h2",
+                "name": "HIPAA Audits & Security",
+                "description": "Log auditing, TLS encryption, and secure database parameters.",
+                "deliverables": "Compliance Certificate",
+                "revisions": "1 round",
+                "price": 12000
+              }
+            ]
+          },
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-h3",
+      "title": "Regulatory Terms & Execution",
+      "blocks": [
+        {
+          "id": "block-h-terms",
+          "type": "terms",
+          "layout": "default",
+          "title": "HIPAA Operations & Terms",
+          "listItems": [
+            "All medical patient transmission records must log detailed audit trails.",
+            "Client owns all clinical data; integration provider implements zero-knowledge caches.",
+            "Integration services include a 12-month post-launch maintenance SLA."
+          ],
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        },
+        {
+          "id": "block-h-sign",
+          "type": "signature",
+          "layout": "default",
+          "title": "Healthcare Integration Agreement",
+          "subtitle": "Sign to authorize HIPAA data linkage",
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        }
+      ]
+    }
+  ],
+  "comments": [],
+  "signatures": {},
+  "reusableLibrary": [],
+  "variables": [
+    {
+      "key": "client_name",
+      "value": "Client name",
+      "label": "Client Name",
+      "description": "Name of the client organization"
+    },
+    {
+      "key": "company_name",
+      "value": "Docdril Creative Studio",
+      "label": "Company Name",
+      "description": "Name of your creative studio"
+    },
+    {
+      "key": "project_name",
+      "value": "HIPAA-Compliant EHR & Clinic System Integration",
+      "label": "Project Name",
+      "description": "The title of this project"
+    },
+    {
+      "key": "date",
+      "value": "July 19, 2026",
+      "label": "Date Issued",
+      "description": "The proposal issuing date"
+    }
+  ],
+  "activeBranch": "main",
+  "branches": {},
+  "checkpoints": [],
+  "isBlueprint": true,
+  "blueprintDescription": "HIPAA-compliant system integration proposal for clinic management systems, HL7 feeds, and medical record databases.",
+  "industry": "Healthcare"
+}

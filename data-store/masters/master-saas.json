@@ -1,0 +1,184 @@
+{
+  "id": "master-saas",
+  "projectName": "Enterprise SaaS Application Build & Roadmap",
+  "clientName": "{{client_name}}",
+  "companyName": "{{company_name}}",
+  "date": "{{date}}",
+  "logoUrl": null,
+  "status": "draft",
+  "brandKit": {
+    "name": "Midnight Royal",
+    "primaryColor": "#0f172a",
+    "secondaryColor": "#4b5563",
+    "accentColor": "#3b82f6",
+    "textColor": "#111827",
+    "backgroundColor": "#ffffff",
+    "fontHeading": "Space Grotesk",
+    "fontBody": "Inter",
+    "spacing": "comfortable",
+    "borderRadius": "subtle"
+  },
+  "pages": [
+    {
+      "id": "page-s1",
+      "title": "Cover Page",
+      "blocks": [
+        {
+          "id": "block-s-cover",
+          "type": "cover",
+          "layout": "split",
+          "title": "Enterprise SaaS Platform Development",
+          "subtitle": "Multi-tenant scalability roadmap for {{client_name}}",
+          "content": "Prepared by {{company_name}}",
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-s2",
+      "title": "Architecture & Scope",
+      "blocks": [
+        {
+          "id": "block-s-welcome",
+          "type": "welcome",
+          "layout": "default",
+          "title": "SaaS Overview",
+          "content": "Dear {{client_name}} Team,\n\nBuilding a SaaS application requires strong foundations in API gateways, multi-tenant databases, and seamless onboarding flows. This proposal outlines our architectural approach to deliver a secure and highly scalable platform.",
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        },
+        {
+          "id": "block-s-services",
+          "type": "services",
+          "layout": "cards",
+          "title": "Development Scope",
+          "subtitle": "SaaS engineering phases",
+          "metadata": {
+            "services": [
+              {
+                "id": "s-s1",
+                "name": "Database & Multi-tenancy",
+                "description": "PostgreSQL schema with tenant row-level security.",
+                "deliverables": "Db Schemas",
+                "revisions": "1 round",
+                "price": 12000
+              },
+              {
+                "id": "s-s2",
+                "name": "API Gateway & Services",
+                "description": "RESTful API infrastructure with OAuth2.",
+                "deliverables": "Core APIs",
+                "revisions": "2 rounds",
+                "price": 15000
+              },
+              {
+                "id": "s-s3",
+                "name": "Frontend Dashboards",
+                "description": "React-based admin and customer panels.",
+                "deliverables": "Admin Panels",
+                "revisions": "2 rounds",
+                "price": 18000
+              }
+            ]
+          },
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-s3",
+      "title": "Roadmap & Signatures",
+      "blocks": [
+        {
+          "id": "block-s-timeline",
+          "type": "timeline",
+          "layout": "default",
+          "title": "Platform Roadmap",
+          "subtitle": "Sprint milestones",
+          "metadata": {
+            "steps": [
+              {
+                "title": "Sprint 1-2: Core Backend Architecture",
+                "duration": "Weeks 1-4",
+                "details": "Database setups & authentication."
+              },
+              {
+                "title": "Sprint 3-4: Feature Development",
+                "duration": "Weeks 5-8",
+                "details": "Tenant dashboards & API setups."
+              },
+              {
+                "title": "Sprint 5: Staging Verification",
+                "duration": "Week 9-10",
+                "details": "Staging launch and performance audits."
+              }
+            ]
+          },
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        },
+        {
+          "id": "block-s-sign",
+          "type": "signature",
+          "layout": "default",
+          "title": "Agreement & Execution",
+          "subtitle": "Sign to initiate platform build",
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        }
+      ]
+    }
+  ],
+  "comments": [],
+  "signatures": {},
+  "reusableLibrary": [],
+  "variables": [
+    {
+      "key": "client_name",
+      "value": "Client name",
+      "label": "Client Name",
+      "description": "Name of the client organization"
+    },
+    {
+      "key": "company_name",
+      "value": "Docdril Creative Studio",
+      "label": "Company Name",
+      "description": "Name of your creative studio"
+    },
+    {
+      "key": "project_name",
+      "value": "Enterprise SaaS Application Build & Roadmap",
+      "label": "Project Name",
+      "description": "The title of this project"
+    },
+    {
+      "key": "date",
+      "value": "July 19, 2026",
+      "label": "Date Issued",
+      "description": "The proposal issuing date"
+    }
+  ],
+  "activeBranch": "main",
+  "branches": {},
+  "checkpoints": [],
+  "isBlueprint": true,
+  "blueprintDescription": "Enterprise scale application development blueprint covering API architectures, multi-tenant database designs, and SaaS roadmap.",
+  "industry": "SaaS"
+}

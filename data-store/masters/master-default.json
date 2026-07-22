@@ -1,0 +1,716 @@
+{
+  "id": "master-default",
+  "projectName": "Strategic Brand & Identity Template",
+  "clientName": "{{client_name}}",
+  "companyName": "{{company_name}}",
+  "date": "{{date}}",
+  "logoUrl": null,
+  "status": "draft",
+  "brandKit": {
+    "name": "Obsidian & Ivory",
+    "primaryColor": "#000000",
+    "secondaryColor": "#4b5563",
+    "accentColor": "#10b981",
+    "textColor": "#111827",
+    "backgroundColor": "#ffffff",
+    "fontHeading": "Inter",
+    "fontBody": "Inter",
+    "spacing": "compact",
+    "borderRadius": "subtle"
+  },
+  "comments": [],
+  "signatures": {},
+  "reusableLibrary": [],
+  "variables": [
+    {
+      "key": "client_name",
+      "value": "Acme Corporation",
+      "label": "Client Name",
+      "description": "Name of the client organization"
+    },
+    {
+      "key": "company_name",
+      "value": "Docdril Creative Studio",
+      "label": "Company Name",
+      "description": "Name of your creative studio"
+    },
+    {
+      "key": "project_name",
+      "value": "Strategic Brand Identity & Platform Design",
+      "label": "Project Name",
+      "description": "The title of this project"
+    },
+    {
+      "key": "date",
+      "value": "July 19, 2026",
+      "label": "Date Issued",
+      "description": "The proposal issuing date"
+    }
+  ],
+  "activeBranch": "main",
+  "branches": {
+    "main": {
+      "projectName": "Strategic Brand & Identity Template",
+      "pages": [
+        {
+          "id": "page-cover",
+          "title": "Cover Page",
+          "blocks": [
+            {
+              "id": "block-cover",
+              "type": "cover",
+              "layout": "split",
+              "title": "Strategic Brand Identity",
+              "subtitle": "A comprehensive design proposal for {{client_name}}",
+              "content": "Prepared by {{company_name}}",
+              "conditional": {
+                "visibleTo": "all",
+                "optional": false,
+                "included": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "page-welcome",
+          "title": "Introduction",
+          "blocks": [
+            {
+              "id": "block-welcome-text",
+              "type": "welcome",
+              "layout": "default",
+              "title": "Executive Summary",
+              "content": "Dear {{client_name}} Team,\n\nWe are absolutely thrilled to present this proposal for your upcoming brand expansion. Based on our preliminary discussions, we understand you are looking for a cohesive visual language and a robust platform build to support your growing market share.\n\nOur team has successfully executed dozens of similar projects, and we bring a research-driven, design-forward approach to every engagement. We look forward to partnering with you on this journey.\n\nWarmly,\nThe {{company_name}} Team",
+              "conditional": {
+                "visibleTo": "all",
+                "optional": false,
+                "included": true
+              }
+            },
+            {
+              "id": "block-about",
+              "type": "about",
+              "layout": "split",
+              "title": "About {{company_name}}",
+              "content": "{{company_name}} is a premier creative and digital agency dedicated to elevating brands through innovative design and full-stack engineering.",
+              "metadata": {
+                "specialties": "Video Production, UI/UX Design, Full-Stack Engineering, Digital Marketing",
+                "industries": "Tech, Fintech, B2B SaaS, E-Commerce",
+                "approach": "User-centered, data-informed iterations with weekly milestone demos."
+              },
+              "conditional": {
+                "visibleTo": "all",
+                "optional": false,
+                "included": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "page-services",
+          "title": "Our Services",
+          "blocks": [
+            {
+              "id": "block-services-list",
+              "type": "services",
+              "layout": "cards",
+              "title": "Scope of Services",
+              "subtitle": "Tailored solutions for {{client_name}}'s visual and technical needs",
+              "metadata": {
+                "services": [
+                  {
+                    "id": "s1",
+                    "name": "Brand Strategy & Visual Identity",
+                    "description": "Competitor research, brand guidelines, color palettes, logotype, and typeface guidelines.",
+                    "deliverables": "Brand Book PDF, Vector Logo files, Social templates",
+                    "revisions": "3 rounds",
+                    "price": 5000
+                  },
+                  {
+                    "id": "s2",
+                    "name": "Custom Platform Development",
+                    "description": "Next.js responsive website integration, customized CMS setup, analytics, and speed optimization.",
+                    "deliverables": "Production codebase, CMS login, staging access",
+                    "revisions": "2 rounds",
+                    "price": 12500
+                  }
+                ]
+              },
+              "conditional": {
+                "visibleTo": "all",
+                "optional": false,
+                "included": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "page-timeline",
+          "title": "Project Roadmap",
+          "blocks": [
+            {
+              "id": "block-timeline-steps",
+              "type": "timeline",
+              "layout": "default",
+              "title": "Milestone Roadmap",
+              "subtitle": "A step-by-step path to project completion",
+              "metadata": {
+                "steps": [
+                  {
+                    "title": "Phase 1: Discovery & Strategy",
+                    "duration": "Weeks 1-2",
+                    "details": "Market research, typography selections, wireframing reviews."
+                  },
+                  {
+                    "title": "Phase 2: Visual Execution",
+                    "duration": "Weeks 3-5",
+                    "details": "High-fidelity mockups, brand assets compilation, interactive prototypes."
+                  },
+                  {
+                    "title": "Phase 3: Development & Integration",
+                    "duration": "Weeks 6-9",
+                    "details": "Core UI implementation, API setups, responsive testing."
+                  },
+                  {
+                    "title": "Phase 4: QA & Deployment",
+                    "duration": "Week 10",
+                    "details": "SEO analysis, security checks, final site launch."
+                  }
+                ]
+              },
+              "conditional": {
+                "visibleTo": "all",
+                "optional": false,
+                "included": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "page-pricing",
+          "title": "Investment Detail",
+          "blocks": [
+            {
+              "id": "block-pricing-table",
+              "type": "pricing",
+              "layout": "default",
+              "title": "Financial Investment",
+              "subtitle": "Transparent pricing breakdown with tax handling",
+              "metadata": {
+                "currency": "$",
+                "taxRate": 18,
+                "discount": 0,
+                "items": [
+                  {
+                    "id": "pi1",
+                    "name": "Brand Identity Design",
+                    "price": 5000,
+                    "qty": 1,
+                    "optional": false,
+                    "included": true
+                  },
+                  {
+                    "id": "pi2",
+                    "name": "Full-Stack Development Package",
+                    "price": 12500,
+                    "qty": 1,
+                    "optional": false,
+                    "included": true
+                  },
+                  {
+                    "id": "pi3",
+                    "name": "Ongoing Monthly Maintenance",
+                    "price": 1500,
+                    "qty": 1,
+                    "optional": true,
+                    "included": false
+                  }
+                ]
+              },
+              "conditional": {
+                "visibleTo": "all",
+                "optional": false,
+                "included": true
+              }
+            },
+            {
+              "id": "block-payment-schedule",
+              "type": "payment-schedule",
+              "layout": "default",
+              "title": "Payment Schedule",
+              "metadata": {
+                "milestones": [
+                  {
+                    "name": "Upfront Deposit (50%)",
+                    "trigger": "Due on proposal approval",
+                    "percentage": 50
+                  },
+                  {
+                    "name": "Development Kickoff (25%)",
+                    "trigger": "Upon design guidelines approval",
+                    "percentage": 25
+                  },
+                  {
+                    "name": "Project Completion (25%)",
+                    "trigger": "Prior to deployment & file handover",
+                    "percentage": 25
+                  }
+                ]
+              },
+              "conditional": {
+                "visibleTo": "all",
+                "optional": false,
+                "included": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "page-faq",
+          "title": "FAQ & Proof",
+          "blocks": [
+            {
+              "id": "block-testimonials",
+              "type": "testimonial",
+              "layout": "cards",
+              "title": "What Our Clients Say",
+              "metadata": {
+                "testimonials": [
+                  {
+                    "quote": "{{company_name}} completely revitalized our product branding. The feedback loop was fast and the design quality was world-class.",
+                    "author": "Jane Miller, CEO at FinTech Solutions",
+                    "avatar": ""
+                  },
+                  {
+                    "quote": "Our site traffic increased by 65% within two months of releasing the new portal built by {{company_name}}.",
+                    "author": "David Chen, VP of Marketing at CloudRetail",
+                    "avatar": ""
+                  }
+                ]
+              },
+              "conditional": {
+                "visibleTo": "all",
+                "optional": false,
+                "included": true
+              }
+            },
+            {
+              "id": "block-faq",
+              "type": "faq",
+              "layout": "default",
+              "title": "Frequently Asked Questions",
+              "metadata": {
+                "faqs": [
+                  {
+                    "question": "What happens if we need more revisions?",
+                    "answer": "Extra revisions are billed at our standard designer hourly rate of $100/hr, with advance approval."
+                  },
+                  {
+                    "question": "Do we own the full intellectual property?",
+                    "answer": "Yes, 100% intellectual property ownership transfers to you automatically upon receipt of the final payment."
+                  }
+                ]
+              },
+              "conditional": {
+                "visibleTo": "all",
+                "optional": false,
+                "included": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "page-signatures",
+          "title": "Signatures",
+          "blocks": [
+            {
+              "id": "block-terms",
+              "type": "terms",
+              "layout": "default",
+              "title": "Terms & Conditions",
+              "listItems": [
+                "Revision Policy: Additional revisions beyond the agreed scope will be billed hourly.",
+                "Timeline: contingent upon timely feedback from the client team.",
+                "Client Assets: Brand materials and copywriting copy must be delivered on schedule.",
+                "Payment Policy: Late payments may incur a 5% monthly compounding fee."
+              ],
+              "conditional": {
+                "visibleTo": "all",
+                "optional": false,
+                "included": true
+              }
+            },
+            {
+              "id": "block-signature",
+              "type": "signature",
+              "layout": "default",
+              "title": "Acceptance of Proposal",
+              "subtitle": "Please review and complete signatures to initiate development.",
+              "conditional": {
+                "visibleTo": "all",
+                "optional": false,
+                "included": true
+              }
+            }
+          ]
+        }
+      ],
+      "brandKit": {
+        "name": "Obsidian & Ivory",
+        "primaryColor": "#000000",
+        "secondaryColor": "#4b5563",
+        "accentColor": "#10b981",
+        "textColor": "#111827",
+        "backgroundColor": "#ffffff",
+        "fontHeading": "Space Grotesk",
+        "fontBody": "Inter",
+        "spacing": "comfortable",
+        "borderRadius": "subtle"
+      },
+      "signatures": {},
+      "variables": [
+        {
+          "key": "client_name",
+          "value": "Acme Corporation",
+          "label": "Client Name",
+          "description": "Name of the client organization"
+        },
+        {
+          "key": "company_name",
+          "value": "Docdril Creative Studio",
+          "label": "Company Name",
+          "description": "Name of your creative studio"
+        },
+        {
+          "key": "project_name",
+          "value": "Strategic Brand Identity & Platform Design",
+          "label": "Project Name",
+          "description": "The title of this project"
+        },
+        {
+          "key": "date",
+          "value": "July 19, 2026",
+          "label": "Date Issued",
+          "description": "The proposal issuing date"
+        }
+      ]
+    }
+  },
+  "checkpoints": [],
+  "pages": [
+    {
+      "id": "page-cover",
+      "title": "Cover Page",
+      "blocks": [
+        {
+          "id": "block-cover",
+          "type": "cover",
+          "layout": "split",
+          "title": "Strategic Brand Identity",
+          "subtitle": "A comprehensive design proposal for {{client_name}}",
+          "content": "Prepared by {{company_name}}",
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-welcome",
+      "title": "Introduction",
+      "blocks": [
+        {
+          "id": "block-welcome-text",
+          "type": "welcome",
+          "layout": "default",
+          "title": "Executive Summary",
+          "content": "Dear {{client_name}} Team,\n\nWe are absolutely thrilled to present this proposal for your upcoming brand expansion. Based on our preliminary discussions, we understand you are looking for a cohesive visual language and a robust platform build to support your growing market share.\n\nOur team has successfully executed dozens of similar projects, and we bring a research-driven, design-forward approach to every engagement. We look forward to partnering with you on this journey.\n\nWarmly,\nThe {{company_name}} Team",
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        },
+        {
+          "id": "block-about",
+          "type": "about",
+          "layout": "split",
+          "title": "About {{company_name}}",
+          "content": "{{company_name}} is a premier creative and digital agency dedicated to elevating brands through innovative design and full-stack engineering.",
+          "metadata": {
+            "specialties": "Video Production, UI/UX Design, Full-Stack Engineering, Digital Marketing",
+            "industries": "Tech, Fintech, B2B SaaS, E-Commerce",
+            "approach": "User-centered, data-informed iterations with weekly milestone demos."
+          },
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-services",
+      "title": "Our Services",
+      "blocks": [
+        {
+          "id": "block-services-list",
+          "type": "services",
+          "layout": "cards",
+          "title": "Scope of Services",
+          "subtitle": "Tailored solutions for {{client_name}}'s visual and technical needs",
+          "metadata": {
+            "services": [
+              {
+                "id": "s1",
+                "name": "Brand Strategy & Visual Identity",
+                "description": "Competitor research, brand guidelines, color palettes, logotype, and typeface guidelines.",
+                "deliverables": "Brand Book PDF, Vector Logo files, Social templates",
+                "revisions": "3 rounds",
+                "price": 5000
+              },
+              {
+                "id": "s2",
+                "name": "Custom Platform Development",
+                "description": "Next.js responsive website integration, customized CMS setup, analytics, and speed optimization.",
+                "deliverables": "Production codebase, CMS login, staging access",
+                "revisions": "2 rounds",
+                "price": 12500
+              },
+              {
+                "id": "hx5dq3h87",
+                "name": "New Service Element",
+                "description": "Describe the scope of design or technology integration here.",
+                "deliverables": "Codebase, Vector files",
+                "revisions": "Unlimited revisions",
+                "price": 2500
+              }
+            ]
+          },
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-timeline",
+      "title": "Project Roadmap",
+      "blocks": [
+        {
+          "id": "block-timeline-steps",
+          "type": "timeline",
+          "layout": "default",
+          "title": "Milestone Roadmap",
+          "subtitle": "A step-by-step path to project completion",
+          "metadata": {
+            "steps": [
+              {
+                "title": "Phase 1: Discovery & Strategy",
+                "duration": "Weeks 1-2",
+                "details": "Market research, typography selections, wireframing reviews."
+              },
+              {
+                "title": "Phase 2: Visual Execution",
+                "duration": "Weeks 3-5",
+                "details": "High-fidelity mockups, brand assets compilation, interactive prototypes."
+              },
+              {
+                "title": "Phase 3: Development & Integration",
+                "duration": "Weeks 6-9",
+                "details": "Core UI implementation, API setups, responsive testing."
+              },
+              {
+                "title": "Phase 4: QA & Deployment",
+                "duration": "Week 10",
+                "details": "SEO analysis, security checks, final site launch."
+              }
+            ]
+          },
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-pricing",
+      "title": "Investment Detail",
+      "blocks": [
+        {
+          "id": "block-pricing-table",
+          "type": "pricing",
+          "layout": "default",
+          "title": "Financial Investment",
+          "subtitle": "Transparent pricing breakdown with tax handling",
+          "metadata": {
+            "currency": "$",
+            "taxRate": 18,
+            "discount": 0,
+            "items": [
+              {
+                "id": "pi1",
+                "name": "Brand Identity Design",
+                "price": 5000,
+                "qty": 1,
+                "optional": false,
+                "included": true
+              },
+              {
+                "id": "pi2",
+                "name": "Full-Stack Development Package",
+                "price": 12500,
+                "qty": 1,
+                "optional": false,
+                "included": true
+              },
+              {
+                "id": "pi3",
+                "name": "Ongoing Monthly Maintenance",
+                "price": 1500,
+                "qty": 1,
+                "optional": true,
+                "included": false
+              }
+            ]
+          },
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        },
+        {
+          "id": "block-payment-schedule",
+          "type": "payment-schedule",
+          "layout": "default",
+          "title": "Payment Schedule",
+          "metadata": {
+            "milestones": [
+              {
+                "name": "Upfront Deposit (50%)",
+                "trigger": "Due on proposal approval",
+                "percentage": 50
+              },
+              {
+                "name": "Development Kickoff (25%)",
+                "trigger": "Upon design guidelines approval",
+                "percentage": 25
+              },
+              {
+                "name": "Project Completion (25%)",
+                "trigger": "Prior to deployment & file handover",
+                "percentage": 25
+              }
+            ]
+          },
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-faq",
+      "title": "FAQ & Proof",
+      "blocks": [
+        {
+          "id": "block-testimonials",
+          "type": "testimonial",
+          "layout": "cards",
+          "title": "What Our Clients Say",
+          "metadata": {
+            "testimonials": [
+              {
+                "quote": "{{company_name}} completely revitalized our product branding. The feedback loop was fast and the design quality was world-class.",
+                "author": "Jane Miller, CEO at FinTech Solutions",
+                "avatar": ""
+              },
+              {
+                "quote": "Our site traffic increased by 65% within two months of releasing the new portal built by {{company_name}}.",
+                "author": "David Chen, VP of Marketing at CloudRetail",
+                "avatar": ""
+              }
+            ]
+          },
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        },
+        {
+          "id": "block-faq",
+          "type": "faq",
+          "layout": "default",
+          "title": "Frequently Asked Questions",
+          "metadata": {
+            "faqs": [
+              {
+                "question": "What happens if we need more revisions?",
+                "answer": "Extra revisions are billed at our standard designer hourly rate of $100/hr, with advance approval."
+              },
+              {
+                "question": "Do we own the full intellectual property?",
+                "answer": "Yes, 100% intellectual property ownership transfers to you automatically upon receipt of the final payment."
+              }
+            ]
+          },
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-signatures",
+      "title": "Signatures",
+      "blocks": [
+        {
+          "id": "block-terms",
+          "type": "terms",
+          "layout": "default",
+          "title": "Terms & Conditions",
+          "listItems": [
+            "Revision Policy: Additional revisions beyond the agreed scope will be billed hourly.",
+            "Timeline: contingent upon timely feedback from the client team.",
+            "Client Assets: Brand materials and copywriting copy must be delivered on schedule.",
+            "Payment Policy: Late payments may incur a 5% monthly compounding fee."
+          ],
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        },
+        {
+          "id": "block-signature",
+          "type": "signature",
+          "layout": "default",
+          "title": "Acceptance of Proposal",
+          "subtitle": "Please review and complete signatures to initiate development.",
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        }
+      ]
+    }
+  ],
+  "isBlueprint": true,
+  "blueprintDescription": "A professional Obsidian & Ivory design blueprint with placeholder tokens.",
+  "industry": "Technology",
+  "isPinnedDefault": true
+}

@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Dancing+Script:wght@400;700&family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,700;1,400&family=Outfit:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Space+Grotesk:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Strict A4 Screen Preview Wrapper with scaling support */
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: calc(297mm * var(--page-scale, 1));
+  margin: 16px 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.page-card {
+  width: 210mm;
+  height: 297mm;
+  background: white;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03), 0 20px 25px -5px rgba(0, 0, 0, 0.02);
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 6px;
+  flex-shrink: 0;
+  transition: box-shadow 0.3s ease, transform 0.15s ease;
+  transform: scale(var(--page-scale, 1));
+  transform-origin: top center;
+}
+
+.page-card:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.02), 0 25px 30px -5px rgba(0, 0, 0, 0.03);
+}
+
+/* Keyframes for premium animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.97); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slide-in {
+  animation: slideIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Print Specific Rules for Vector-quality PDF Export */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 0;
+  }
+
+  /* Reset global viewport margins & scrollbars */
+  html, body {
+    background-color: #ffffff !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  #root,
+  #root > div,
+  .h-screen,
+  .overflow-hidden {
+    background: transparent !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  /* Force background colors and gradients to print correctly, and strip shadows to avoid gray borders in PDFs */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    filter: none !important;
+  }
+
+  /* Hide all editor panels, sidebars, buttons, tools, overlays */
+  .no-print, 
+  .no-print *,
+  .exclude-from-print,
+  .exclude-from-print *,
+  aside,
+  nav,
+  button,
+  select,
+  input[type="checkbox"]:not(:checked),
+  .floating-actions,
+  [role="tooltip"] {
+    display: none !important;
+    height: 0 !important;
+    width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    opacity: 0 !important;
+  }
+
+  /* Flatten container spacing and backgrounds */
+  main, 
+  section, 
+  .flex-1 {
+    display: block !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  .page-wrapper {
+    height: auto !important;
+    width: auto !important;
+    margin: 0 !important;
+    display: block !important;
+  }
+
+  /* A4 physical print pages wrapper */
+  .page-card {
+    width: 210mm !important;
+    height: 297mm !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    background-color: white !important;
+    display: block !important;
+    position: relative !important;
+    page-break-after: always !important;
+    page-break-inside: avoid !important;
+    overflow: hidden !important;
+    transform: none !important;
+  }
+
+  .page-card:last-of-type {
+    page-break-after: avoid !important;
+  }
+
+  /* Ensure text colors are readable in print */
+  p, span, h1, h2, h3, h4, td, th {
+    color: inherit !important;
+  }
+
+  /* Ensure clickable links match original text and keep underlying styling */
+  a {
+    color: #4f46e5;
+    text-decoration: underline;
+    pointer-events: auto !important;
+    z-index: 9999 !important;
+  }
+
+  /* Override editor selection rings, borders, and backgrounds during PDF export */
+  .page-card .border-indigo-600,
+  .page-card div.border-indigo-600,
+  .page-card .ring-indigo-100,
+  .page-card .bg-indigo-50\/10 {
+    border-color: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+}
+
+/* Strip vertical and horizontal padding classes from inner block divs to support custom drag-to-adjust paddings and guarantee exact visual parity between Editor and Client Portal */
+.page-card div.py-6,
+.page-card div.py-8,
+.page-card div.py-12,
+.page-card div.py-16:not(.min-h-\[220mm\]):not(.min-h-\[200mm\]),
+.page-card div.py-20:not(.min-h-\[220mm\]):not(.min-h-\[200mm\]),
+.page-card div.px-10,
+.page-card div.px-12:not(.min-h-\[220mm\]):not(.min-h-\[200mm\]),
+.page-card div.px-16:not(.min-h-\[220mm\]):not(.min-h-\[200mm\]) {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Ensure screen preview text colors match PDF export exactly by inheriting page-card brand kit color */
+.page-card p,
+.page-card span,
+.page-card td,
+.page-card th {
+  color: inherit;
+}

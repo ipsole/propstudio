@@ -1,0 +1,464 @@
+{
+  "id": "master-creative",
+  "projectName": "Visual Brand Identity & Collaterals Design",
+  "clientName": "{{client_name}}",
+  "companyName": "{{company_name}}",
+  "date": "{{date}}",
+  "logoUrl": null,
+  "status": "draft",
+  "brandKit": {
+    "name": "Obsidian & Ivory",
+    "primaryColor": "#000000",
+    "secondaryColor": "#4b5563",
+    "accentColor": "#10b981",
+    "textColor": "#111827",
+    "backgroundColor": "#ffffff",
+    "fontHeading": "Space Grotesk",
+    "fontBody": "Inter",
+    "spacing": "comfortable",
+    "borderRadius": "subtle"
+  },
+  "pages": [
+    {
+      "id": "page-c1",
+      "title": "Cover Page",
+      "blocks": [
+        {
+          "id": "block-c-cover",
+          "type": "cover",
+          "layout": "split",
+          "title": "Visual Identity",
+          "subtitle": "Brand refresh and style design for {{client_name}}",
+          "content": "Prepared by {{company_name}}",
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          },
+          "paddingTop": 132
+        }
+      ]
+    },
+    {
+      "id": "page-c2",
+      "title": "Brand Strategy & Scope",
+      "blocks": [
+        {
+          "id": "block-c-welcome",
+          "type": "welcome",
+          "layout": "default",
+          "title": "Creative Strategy",
+          "content": "Dear {{client_name}} Team,\n\nA brand is more than a logo; it is the sum of emotional experiences and visual guidelines that define consumer interaction. This proposal covers art direction, typography guidelines, and marketing collateral design to elevate your brand presence.",
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        },
+        {
+          "id": "block-c-services",
+          "type": "services",
+          "layout": "cards",
+          "title": "Visual Scope of Services",
+          "subtitle": "Brand identity deliverables",
+          "metadata": {
+            "services": [
+              {
+                "id": "s-c1",
+                "name": "Logo Redesign",
+                "description": "Modern, high-fidelity vector logo options.",
+                "deliverables": "Vector Files",
+                "revisions": "3 rounds",
+                "price": 5000
+              },
+              {
+                "id": "s-c2",
+                "name": "Brand Style Guide",
+                "description": "Typography rules, color schemes, asset templates.",
+                "deliverables": "Brand Book PDF",
+                "revisions": "2 rounds",
+                "price": 3000
+              },
+              {
+                "id": "s-c3",
+                "name": "Social Media Assets",
+                "description": "Custom canvas templates and profiles.",
+                "deliverables": "Figma templates",
+                "revisions": "2 rounds",
+                "price": 2000
+              }
+            ]
+          },
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-c3",
+      "title": "Investment & Approval",
+      "blocks": [
+        {
+          "id": "block-c-pricing",
+          "type": "pricing",
+          "layout": "default",
+          "title": "Creative Investment Summary",
+          "subtitle": "Project costs",
+          "metadata": {
+            "currency": "$",
+            "taxRate": 18,
+            "items": [
+              {
+                "id": "c-p1",
+                "name": "Logo Redesign",
+                "price": 5000,
+                "qty": 1,
+                "optional": false,
+                "included": true
+              },
+              {
+                "id": "c-p2",
+                "name": "Brand Style Guide",
+                "price": 3000,
+                "qty": 1,
+                "optional": false,
+                "included": true
+              },
+              {
+                "id": "c-p3",
+                "name": "Social Media templates",
+                "price": 2000,
+                "qty": 1,
+                "optional": false,
+                "included": true
+              },
+              {
+                "id": "pi-hfoj4bebo",
+                "name": "New Line Item",
+                "price": 500,
+                "qty": 1,
+                "optional": false,
+                "included": true
+              }
+            ]
+          },
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          }
+        },
+        {
+          "type": "about",
+          "layout": "split",
+          "title": "About Our Team",
+          "content": "Introduce your agency background, credentials, and vision here.",
+          "metadata": {
+            "specialties": "Design, Development, Strategy",
+            "industries": "B2B SaaS, HealthTech",
+            "approach": "Collaborative weekly reviews."
+          },
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          },
+          "id": "block-nyjd8gsoc"
+        }
+      ]
+    },
+    {
+      "id": "page-8rhov8u37",
+      "title": "test",
+      "blocks": [
+        {
+          "type": "services",
+          "layout": "cards",
+          "title": "Scope of Services",
+          "subtitle": "Services and deliverables outline",
+          "metadata": {
+            "services": [
+              {
+                "id": "s-init",
+                "name": "Product Branding",
+                "description": "Logos, colors, typography rules.",
+                "deliverables": "Brand Guidelines",
+                "revisions": "2 rounds",
+                "price": 3000
+              }
+            ]
+          },
+          "conditional": {
+            "visibleTo": "all",
+            "optional": false,
+            "included": true
+          },
+          "id": "block-pt89v5avz"
+        }
+      ]
+    }
+  ],
+  "comments": [],
+  "signatures": {},
+  "reusableLibrary": [
+    {
+      "id": "block-c-pricing",
+      "type": "pricing",
+      "layout": "default",
+      "title": "Creative Investment Summary",
+      "subtitle": "Project costs",
+      "metadata": {
+        "currency": "$",
+        "taxRate": 18,
+        "items": [
+          {
+            "id": "c-p1",
+            "name": "Logo Redesign",
+            "price": 5000,
+            "qty": 1,
+            "optional": false,
+            "included": true
+          },
+          {
+            "id": "c-p2",
+            "name": "Brand Style Guide",
+            "price": 3000,
+            "qty": 1,
+            "optional": false,
+            "included": true
+          },
+          {
+            "id": "c-p3",
+            "name": "Social Media templates",
+            "price": 2000,
+            "qty": 1,
+            "optional": false,
+            "included": true
+          }
+        ]
+      },
+      "conditional": {
+        "visibleTo": "all",
+        "optional": false,
+        "included": true
+      }
+    }
+  ],
+  "variables": [
+    {
+      "key": "client_name",
+      "value": "Client name",
+      "label": "Client Name",
+      "description": "Name of the client organization"
+    },
+    {
+      "key": "company_name",
+      "value": "Docdril Creative Studio",
+      "label": "Company Name",
+      "description": "Name of your creative studio"
+    },
+    {
+      "key": "project_name",
+      "value": "Visual Brand Identity & Collaterals Design",
+      "label": "Project Name",
+      "description": "The title of this project"
+    },
+    {
+      "key": "date",
+      "value": "July 19, 2026",
+      "label": "Date Issued",
+      "description": "The proposal issuing date"
+    }
+  ],
+  "activeBranch": "main",
+  "branches": {
+    "main": {
+      "projectName": "Visual Brand Identity & Collaterals Design",
+      "pages": [
+        {
+          "id": "page-c1",
+          "title": "Cover Page",
+          "blocks": [
+            {
+              "id": "block-c-cover",
+              "type": "cover",
+              "layout": "split",
+              "title": "Visual Brand Identity & Art Direction",
+              "subtitle": "Brand refresh and style design for {{client_name}}",
+              "content": "Prepared by {{company_name}}",
+              "conditional": {
+                "visibleTo": "all",
+                "optional": false,
+                "included": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "page-c2",
+          "title": "Brand Strategy & Scope",
+          "blocks": [
+            {
+              "id": "block-c-welcome",
+              "type": "welcome",
+              "layout": "default",
+              "title": "Creative Strategy",
+              "content": "Dear {{client_name}} Team,\n\nA brand is more than a logo; it is the sum of emotional experiences and visual guidelines that define consumer interaction. This proposal covers art direction, typography guidelines, and marketing collateral design to elevate your brand presence.",
+              "conditional": {
+                "visibleTo": "all",
+                "optional": false,
+                "included": true
+              }
+            },
+            {
+              "id": "block-c-services",
+              "type": "services",
+              "layout": "cards",
+              "title": "Visual Scope of Services",
+              "subtitle": "Brand identity deliverables",
+              "metadata": {
+                "services": [
+                  {
+                    "id": "s-c1",
+                    "name": "Logo Redesign",
+                    "description": "Modern, high-fidelity vector logo options.",
+                    "deliverables": "Vector Files",
+                    "revisions": "3 rounds",
+                    "price": 5000
+                  },
+                  {
+                    "id": "s-c2",
+                    "name": "Brand Style Guide",
+                    "description": "Typography rules, color schemes, asset templates.",
+                    "deliverables": "Brand Book PDF",
+                    "revisions": "2 rounds",
+                    "price": 3000
+                  },
+                  {
+                    "id": "s-c3",
+                    "name": "Social Media Assets",
+                    "description": "Custom canvas templates and profiles.",
+                    "deliverables": "Figma templates",
+                    "revisions": "2 rounds",
+                    "price": 2000
+                  }
+                ]
+              },
+              "conditional": {
+                "visibleTo": "all",
+                "optional": false,
+                "included": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "page-c3",
+          "title": "Investment & Approval",
+          "blocks": [
+            {
+              "id": "block-c-pricing",
+              "type": "pricing",
+              "layout": "default",
+              "title": "Creative Investment Summary",
+              "subtitle": "Project costs",
+              "metadata": {
+                "currency": "$",
+                "taxRate": 18,
+                "items": [
+                  {
+                    "id": "c-p1",
+                    "name": "Logo Redesign",
+                    "price": 5000,
+                    "qty": 1,
+                    "optional": false,
+                    "included": true
+                  },
+                  {
+                    "id": "c-p2",
+                    "name": "Brand Style Guide",
+                    "price": 3000,
+                    "qty": 1,
+                    "optional": false,
+                    "included": true
+                  },
+                  {
+                    "id": "c-p3",
+                    "name": "Social Media templates",
+                    "price": 2000,
+                    "qty": 1,
+                    "optional": false,
+                    "included": true
+                  }
+                ]
+              },
+              "conditional": {
+                "visibleTo": "all",
+                "optional": false,
+                "included": true
+              }
+            },
+            {
+              "id": "block-c-sign",
+              "type": "signature",
+              "layout": "default",
+              "title": "Signatures and Acceptance",
+              "subtitle": "Sign below to launch visual design phase",
+              "conditional": {
+                "visibleTo": "all",
+                "optional": false,
+                "included": true
+              }
+            }
+          ]
+        }
+      ],
+      "brandKit": {
+        "name": "Terra Cotta",
+        "primaryColor": "#c2410c",
+        "secondaryColor": "#4b5563",
+        "accentColor": "#fb923c",
+        "textColor": "#111827",
+        "backgroundColor": "#ffffff",
+        "fontHeading": "Playfair Display",
+        "fontBody": "Inter",
+        "spacing": "comfortable",
+        "borderRadius": "subtle"
+      },
+      "signatures": {},
+      "variables": [
+        {
+          "key": "client_name",
+          "value": "Client name",
+          "label": "Client Name",
+          "description": "Name of the client organization"
+        },
+        {
+          "key": "company_name",
+          "value": "Docdril Creative Studio",
+          "label": "Company Name",
+          "description": "Name of your creative studio"
+        },
+        {
+          "key": "project_name",
+          "value": "Visual Brand Identity & Collaterals Design",
+          "label": "Project Name",
+          "description": "The title of this project"
+        },
+        {
+          "key": "date",
+          "value": "July 19, 2026",
+          "label": "Date Issued",
+          "description": "The proposal issuing date"
+        }
+      ]
+    }
+  },
+  "checkpoints": [],
+  "isBlueprint": true,
+  "blueprintDescription": "High-fidelity brand strategy, brand book development, assets redesign, and collateral creation proposal.",
+  "industry": "Creative"
+}

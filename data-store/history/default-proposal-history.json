@@ -1,0 +1,598 @@
+[
+  {
+    "id": "version-dsjp7eapi",
+    "name": "t2",
+    "timestamp": "Jul 19, 01:04 PM",
+    "pages": [
+      {
+        "id": "page-cover",
+        "title": "Cover Page",
+        "blocks": [
+          {
+            "id": "block-cover",
+            "type": "cover",
+            "layout": "split",
+            "title": "Strategic Brand Identity",
+            "subtitle": "A comprehensive design proposal for {{client_name}}",
+            "content": "Prepared by {{company_name}}",
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            },
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "textAlign": "center",
+            "marginTop": -80,
+            "marginBottom": -80
+          },
+          {
+            "type": "image",
+            "layout": "default",
+            "title": "Image Showcase",
+            "metadata": {
+              "url": "https://imgs.search.brave.com/UMVzS1qMzj8bYtcTZdzPUnPGm1DaeZ815HFw8d8MnNE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzIwLzIzLzY1LzMx/LzM2MF9GXzIwMjM2/NTMxODBfcHRiNTB3/Mk0yeHlocDVicnVa/TGJVcGp3WE5neFFW/Z00uanBn",
+              "caption": "Example illustration showing strategy analysis overview."
+            },
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            },
+            "id": "block-l104qq83t",
+            "paddingTop": 0,
+            "marginBottom": -37,
+            "marginTop": -80,
+            "textAlign": "right"
+          }
+        ]
+      },
+      {
+        "id": "page-welcome",
+        "title": "Introduction",
+        "blocks": [
+          {
+            "id": "block-welcome-text",
+            "type": "welcome",
+            "layout": "default",
+            "title": "Welcome",
+            "content": "hoope Dear {{client_name}} Team,\n\nWe are absolutely thrilled to present this proposal for your upcoming brand expansion. Based on our preliminary discussions, we understand you are looking for a cohesive visual language and a robust platform build to support your growing market share.\n\nOur team has successfully executed dozens of similar projects, and we bring a research-driven, design-forward approach to every engagement. We look forward to partnering with you on this journey.\n\nWarmly,\nThe {{company_name}} Team",
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            },
+            "paddingTop": 95,
+            "textAlign": "right"
+          },
+          {
+            "id": "block-about",
+            "type": "about",
+            "layout": "split",
+            "title": "About {{company_name}}",
+            "content": "{{company_name}} is a premier creative and digital agency dedicated to elevating brands through innovative design and full-stack engineering.",
+            "metadata": {
+              "specialties": "Video Production, UI/UX Design, Full-Stack Engineering, Digital Marketing",
+              "industries": "Tech, Fintech, B2B SaaS, E-Commerce",
+              "approach": "User-centered, data-informed iterations with weekly milestone demos."
+            },
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            },
+            "paddingTop": 139,
+            "paddingBottom": 0,
+            "marginTop": -59,
+            "fontStyle": "normal",
+            "fontWeight": "normal"
+          }
+        ]
+      },
+      {
+        "id": "page-services",
+        "title": "Our Services",
+        "blocks": [
+          {
+            "id": "block-services-list",
+            "type": "services",
+            "layout": "cards",
+            "title": "Scope of Services",
+            "subtitle": "Tailored solutions for {{client_name}}'s visual and technical needs",
+            "metadata": {
+              "services": [
+                {
+                  "id": "s1",
+                  "name": "Brand Strategy & Visual Identity",
+                  "description": "Competitor research, brand guidelines, color palettes, logotype, and typeface guidelines.",
+                  "deliverables": "Brand Book PDF, Vector Logo files, Social templates",
+                  "revisions": "3 rounds",
+                  "price": 778
+                },
+                {
+                  "id": "s2",
+                  "name": "Custom Platform Development",
+                  "description": "Next.js responsive website integration, customized CMS setup, analytics, and speed optimization.",
+                  "deliverables": "Production codebase, CMS login, staging access",
+                  "revisions": "2 rounds",
+                  "price": 120500
+                },
+                {
+                  "id": "q6r9rsbky",
+                  "name": "New Service Element",
+                  "description": "Describe the scope of design or technology integration here.",
+                  "deliverables": "Codebase, Vector files",
+                  "revisions": "Unlimited revisions",
+                  "price": 0
+                }
+              ]
+            },
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            },
+            "paddingTop": 41
+          },
+          {
+            "type": "heading",
+            "layout": "h1",
+            "title": "New policy revision",
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            },
+            "id": "block-sihc3mhvw",
+            "paddingBottom": 0,
+            "textAlign": "center",
+            "paddingTop": 0,
+            "marginTop": -36,
+            "marginBottom": -34
+          },
+          {
+            "type": "link",
+            "layout": "default",
+            "title": "Visit Resource",
+            "metadata": {
+              "url": "https://docdril.com",
+              "label": "Open Docdril Portal"
+            },
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            },
+            "id": "block-dxzexq5qu",
+            "paddingTop": 0,
+            "paddingBottom": 0
+          },
+          {
+            "type": "text",
+            "layout": "default",
+            "title": "Text Block",
+            "content": "Clicking this button opens a clean popup menu right at the cursor, allowing you to select and instantly inject any block type precisely above or below that container!",
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            },
+            "id": "block-48s3w4k5v",
+            "paddingTop": 6,
+            "paddingBottom": 26,
+            "textAlign": "right"
+          }
+        ]
+      },
+      {
+        "id": "page-timeline",
+        "title": "Project Roadmap",
+        "blocks": [
+          {
+            "id": "block-timeline-steps",
+            "type": "timeline",
+            "layout": "default",
+            "title": "Milestone Roadmap",
+            "subtitle": "A step-by-step path to project completion",
+            "metadata": {
+              "steps": [
+                {
+                  "title": "Phase 1: Discovery & Strategy",
+                  "duration": "Weeks 1-2",
+                  "details": "Market research, typography selections, wireframing reviews."
+                },
+                {
+                  "title": "Phase 2: Visual Execution",
+                  "duration": "Weeks 3-5",
+                  "details": "High-fidelity mockups, brand assets compilation, interactive prototypes."
+                },
+                {
+                  "title": "Phase 3: Development & Integration",
+                  "duration": "Weeks 6-9",
+                  "details": "Core UI implementation, API setups, responsive testing."
+                },
+                {
+                  "title": "Phase 4: QA & Deployment",
+                  "duration": "Week 10",
+                  "details": "SEO analysis, security checks, final site launch."
+                }
+              ]
+            },
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            },
+            "marginBottom": 26
+          },
+          {
+            "id": "block-pricing-table",
+            "type": "pricing",
+            "layout": "split",
+            "title": "Financial Investment",
+            "subtitle": "Transparent pricing breakdown with tax handling",
+            "metadata": {
+              "currency": "",
+              "taxRate": 18,
+              "discount": 0,
+              "items": [
+                {
+                  "id": "pi1",
+                  "name": "Brand Identity Design",
+                  "price": 706700,
+                  "qty": 178,
+                  "optional": false,
+                  "included": true
+                },
+                {
+                  "id": "pi2",
+                  "name": "Full-Stack Development Package",
+                  "price": 12500,
+                  "qty": 1,
+                  "optional": false,
+                  "included": true
+                },
+                {
+                  "id": "pi3",
+                  "name": "Ongoing Monthly Maintenance",
+                  "price": 1500,
+                  "qty": 1,
+                  "optional": true,
+                  "included": false
+                },
+                {
+                  "id": "pi-xfsuvifg5",
+                  "name": "New Line Item",
+                  "price": 500,
+                  "qty": 1,
+                  "optional": false,
+                  "included": true
+                }
+              ]
+            },
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            },
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "marginBottom": -6,
+            "marginTop": -30
+          }
+        ]
+      },
+      {
+        "id": "page-ij0h3f2yq",
+        "title": "New Page",
+        "blocks": [
+          {
+            "type": "about",
+            "layout": "split",
+            "title": "About Our Team",
+            "content": "Introduce your agency background, credentials, and vision here.",
+            "metadata": {
+              "specialties": "Design, Development, Strategy",
+              "industries": "B2B SaaS, HealthTech",
+              "approach": "Collaborative weekly reviews."
+            },
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            },
+            "id": "block-pw6182004"
+          }
+        ]
+      }
+    ],
+    "brandKit": {
+      "name": "Obsidian & Ivory",
+      "primaryColor": "#000000",
+      "secondaryColor": "#4b5563",
+      "accentColor": "#10b981",
+      "textColor": "#111827",
+      "backgroundColor": "#ffffff",
+      "fontHeading": "Montserrat",
+      "fontBody": "Inter",
+      "spacing": "comfortable",
+      "borderRadius": "subtle"
+    },
+    "signatures": {},
+    "variables": [
+      {
+        "key": "client_name",
+        "value": "Acme Corporation",
+        "label": "Client Name",
+        "description": "Name of the client organization"
+      },
+      {
+        "key": "company_name",
+        "value": "Docdril",
+        "label": "Company Name",
+        "description": "Name of your creative studio"
+      },
+      {
+        "key": "project_name",
+        "value": "Strategic Brand Identity & Platform Design",
+        "label": "Project Name",
+        "description": "The title of this project"
+      },
+      {
+        "key": "date",
+        "value": "July 19, 2026",
+        "label": "Date Issued",
+        "description": "The proposal issuing date"
+      }
+    ]
+  },
+  {
+    "id": "version-wi8k16ssn",
+    "name": "t1",
+    "timestamp": "Jul 19, 10:28 AM",
+    "pages": [
+      {
+        "id": "page-cover",
+        "title": "Cover Page",
+        "blocks": [
+          {
+            "id": "block-cover",
+            "type": "cover",
+            "layout": "split",
+            "title": "Strategic Brand Identity",
+            "subtitle": "A comprehensive design proposal for {{client_name}}",
+            "content": "Prepared by {{company_name}}",
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            },
+            "paddingTop": 148,
+            "paddingBottom": 0
+          }
+        ]
+      },
+      {
+        "id": "page-welcome",
+        "title": "Introduction",
+        "blocks": [
+          {
+            "id": "block-welcome-text",
+            "type": "welcome",
+            "layout": "default",
+            "title": "Welcome",
+            "content": "Dear {{client_name}} Team,\n\nWe are absolutely thrilled to present this proposal for your upcoming brand expansion. Based on our preliminary discussions, we understand you are looking for a cohesive visual language and a robust platform build to support your growing market share.\n\nOur team has successfully executed dozens of similar projects, and we bring a research-driven, design-forward approach to every engagement. We look forward to partnering with you on this journey.\n\nWarmly,\nThe {{company_name}} Team",
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            },
+            "paddingTop": 169
+          },
+          {
+            "id": "block-about",
+            "type": "about",
+            "layout": "split",
+            "title": "About {{company_name}}",
+            "content": "{{company_name}} is a premier creative and digital agency dedicated to elevating brands through innovative design and full-stack engineering.",
+            "metadata": {
+              "specialties": "Video Production, UI/UX Design, Full-Stack Engineering, Digital Marketing",
+              "industries": "Tech, Fintech, B2B SaaS, E-Commerce",
+              "approach": "User-centered, data-informed iterations with weekly milestone demos."
+            },
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            },
+            "paddingTop": 96,
+            "paddingBottom": 0
+          }
+        ]
+      },
+      {
+        "id": "page-services",
+        "title": "Our Services",
+        "blocks": [
+          {
+            "id": "block-services-list",
+            "type": "services",
+            "layout": "cards",
+            "title": "Scope of Services",
+            "subtitle": "Tailored solutions for {{client_name}}'s visual and technical needs",
+            "metadata": {
+              "services": [
+                {
+                  "id": "s1",
+                  "name": "Brand Strategy & Visual Identity",
+                  "description": "Competitor research, brand guidelines, color palettes, logotype, and typeface guidelines.",
+                  "deliverables": "Brand Book PDF, Vector Logo files, Social templates",
+                  "revisions": "3 rounds",
+                  "price": 778
+                },
+                {
+                  "id": "s2",
+                  "name": "Custom Platform Development",
+                  "description": "Next.js responsive website integration, customized CMS setup, analytics, and speed optimization.",
+                  "deliverables": "Production codebase, CMS login, staging access",
+                  "revisions": "2 rounds",
+                  "price": 12500
+                },
+                {
+                  "id": "q6r9rsbky",
+                  "name": "New Service Element",
+                  "description": "Describe the scope of design or technology integration here.",
+                  "deliverables": "Codebase, Vector files",
+                  "revisions": "Unlimited revisions",
+                  "price": 0
+                }
+              ]
+            },
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            },
+            "paddingTop": 214
+          }
+        ]
+      },
+      {
+        "id": "page-timeline",
+        "title": "Project Roadmap",
+        "blocks": [
+          {
+            "id": "block-timeline-steps",
+            "type": "timeline",
+            "layout": "default",
+            "title": "Milestone Roadmap",
+            "subtitle": "A step-by-step path to project completion",
+            "metadata": {
+              "steps": [
+                {
+                  "title": "Phase 1: Discovery & Strategy",
+                  "duration": "Weeks 1-2",
+                  "details": "Market research, typography selections, wireframing reviews."
+                },
+                {
+                  "title": "Phase 2: Visual Execution",
+                  "duration": "Weeks 3-5",
+                  "details": "High-fidelity mockups, brand assets compilation, interactive prototypes."
+                },
+                {
+                  "title": "Phase 3: Development & Integration",
+                  "duration": "Weeks 6-9",
+                  "details": "Core UI implementation, API setups, responsive testing."
+                },
+                {
+                  "title": "Phase 4: QA & Deployment",
+                  "duration": "Week 10",
+                  "details": "SEO analysis, security checks, final site launch."
+                }
+              ]
+            },
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            }
+          },
+          {
+            "id": "block-pricing-table",
+            "type": "pricing",
+            "layout": "split",
+            "title": "Financial Investment",
+            "subtitle": "Transparent pricing breakdown with tax handling",
+            "metadata": {
+              "currency": "",
+              "taxRate": 18,
+              "discount": 0,
+              "items": [
+                {
+                  "id": "pi1",
+                  "name": "Brand Identity Design",
+                  "price": 7000,
+                  "qty": 1,
+                  "optional": false,
+                  "included": true
+                },
+                {
+                  "id": "pi2",
+                  "name": "Full-Stack Development Package",
+                  "price": 12500,
+                  "qty": 1,
+                  "optional": false,
+                  "included": true
+                },
+                {
+                  "id": "pi3",
+                  "name": "Ongoing Monthly Maintenance",
+                  "price": 1500,
+                  "qty": 1,
+                  "optional": true,
+                  "included": false
+                },
+                {
+                  "id": "pi-xfsuvifg5",
+                  "name": "New Line Item",
+                  "price": 500,
+                  "qty": 1,
+                  "optional": false,
+                  "included": true
+                }
+              ]
+            },
+            "conditional": {
+              "visibleTo": "all",
+              "optional": false,
+              "included": true
+            }
+          }
+        ]
+      }
+    ],
+    "brandKit": {
+      "name": "Obsidian & Ivory",
+      "primaryColor": "#000000",
+      "secondaryColor": "#4b5563",
+      "accentColor": "#10b981",
+      "textColor": "#111827",
+      "backgroundColor": "#ffffff",
+      "fontHeading": "Space Grotesk",
+      "fontBody": "Inter",
+      "spacing": "spacious",
+      "borderRadius": "subtle"
+    },
+    "signatures": {},
+    "variables": [
+      {
+        "key": "client_name",
+        "value": "Acme Corporation",
+        "label": "Client Name",
+        "description": "Name of the client organization"
+      },
+      {
+        "key": "company_name",
+        "value": "Docdril",
+        "label": "Company Name",
+        "description": "Name of your creative studio"
+      },
+      {
+        "key": "project_name",
+        "value": "Strategic Brand Identity & Platform Design",
+        "label": "Project Name",
+        "description": "The title of this project"
+      },
+      {
+        "key": "date",
+        "value": "July 19, 2026",
+        "label": "Date Issued",
+        "description": "The proposal issuing date"
+      }
+    ]
+  }
+]
