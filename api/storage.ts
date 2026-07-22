@@ -10,7 +10,7 @@ import {
   Version,
   defaultProposalData,
   stripClientSpecificData
-} from './types.ts';
+} from './types.js';
 
 export interface StorageProvider {
   listProposals(): Promise<ProposalMetadata[]>;
